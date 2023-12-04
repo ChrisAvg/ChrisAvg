@@ -1,0 +1,21 @@
+prog.cs
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Person myObj = new Person();
+      bool isGenderboy = false; 
+      myObj.Gender = "boy";
+      myObj.Gender = "girl";
+      Console.Write("What is the gender of the baby?: "); 
+      Console.WriteLine(myObj.Gender);
+       Console.Write("Is it a boy?: "); 
+      Console.WriteLine(isGenderboy);
+      //Console.WriteLine(myObj.Gender2);
+    }
+  }
+}
