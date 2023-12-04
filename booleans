@@ -1,0 +1,20 @@
+using System;
+
+namespace MyApplication
+{
+ class Coding 
+  {
+    string isCodingFun;
+    int ismaxLearn = 2;
+
+    static void Main(string[] args)
+    {
+     Coding myObj = new Coding();
+	   bool isCodingFun = true;
+	   bool ismaxLearn= false;
+	   Console.WriteLine(isCodingFun);
+	   Console.WriteLine(ismaxLearn);
+     Console.WriteLine(myObj.ismaxLearn);
+	}
+  }
+}
