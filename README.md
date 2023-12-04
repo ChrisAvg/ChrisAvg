@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @ChrisAvg
 - 👀 I’m interested in Advanced learning C# 
 - 🌱 I’m currently learning C# for Unity
-- if anyone is in advanced C# level or Unity can give me smth to start with as a Junior as a part time without payment, message me.
+- if anyone is in advanced C# level / Unity can give me smth to start with as a Junior as a part time without payment, message me.
   
 
   
