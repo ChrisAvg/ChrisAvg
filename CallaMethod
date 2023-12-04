@@ -1,0 +1,22 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void MyWork()
+    {
+      Console.WriteLine("I haven't done anything yet!");
+    }
+    static void MyWork2()
+    {
+      Console.WriteLine("I am just learning to code!");
+	}
+    static void Main(string[] args)
+    {
+      MyWork();
+      MyWork2();
+          
+    }
+  }
+}
