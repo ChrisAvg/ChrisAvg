@@ -1,0 +1,27 @@
+using System;
+
+namespace MyApplication
+{
+  class Car
+  {
+    public string model;
+    public string color;
+    public int year;
+    public int cc;
+
+    // Create a class constructor with multiple parameters
+    public Car(string modelName, string modelColor, int modelYear, int modelCc)
+    {
+      model = modelName;
+      color = modelColor;
+      year = modelYear;
+      cc = modelCc;
+    }
+
+    static void Main(string[] args)
+    {
+      Car Ford = new Car("Mustang", "Red", 1969, 2000);
+      Console.WriteLine(Ford.color + " " + Ford.year + " " + Ford.model + " " + Ford.cc + "cc");
+    }
+  }
+}
